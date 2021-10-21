@@ -1,3 +1,4 @@
+print("Job queue problem")
 class JobQueue:
     def read_data(self):
         self.num_workers, m = map(int, input().split())
