@@ -1,4 +1,4 @@
-print("Excited to learn Python DS ")
+
 # Program to display the Fibonacci sequence up to n-th term
 
 nterms = int(input("How many terms? "))
@@ -24,3 +24,5 @@ else:
        n1 = n2
        n2 = nth
        count += 1
+=======
+print("Yes very Excited!!")
