@@ -52,3 +52,4 @@ sequence = list(dynamic_sequence(n))
 print(len(sequence) - 1)
 for x in sequence:
     print(x, end=' ')
+    print("printed")
