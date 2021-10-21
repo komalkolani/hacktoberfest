@@ -1,4 +1,4 @@
-#checks no. is prime or not
+
 def isPrime(n):
     b = True
     for x in range(2,n-1):
