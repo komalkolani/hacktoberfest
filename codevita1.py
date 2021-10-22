@@ -8,8 +8,10 @@ def isPrime(n):
     return b
 
 totalHr , division = map(int,input().split())
-peroid = int(totalHr /division)
+peroid = totalHr /division
+peroid = int(peroid)
 counter = 0
+
 for i in range(2,peroid):
     if isPrime(i):
         for j in range(1,division):
@@ -22,5 +24,4 @@ for i in range(2,peroid):
                 break
 
 print(counter,end="")
-
-
+print("Task Accomplished!")
