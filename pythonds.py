@@ -1,12 +1,14 @@
 
 # Program to display the Fibonacci sequence up to n-th term
 
-nterms = int(input("How many terms? "))
+nterms = int(input("Enter number of terms"))
 
 # first two terms
 n1, n2 = 0, 1
 count = 0
-
+l = [22,3,4,5,9]
+l.sort()
+print(l)
 # check if the number of terms is valid
 if nterms <= 0:
    print("Please enter a positive integer")
@@ -25,4 +27,4 @@ else:
        n2 = nth
        count += 1
 =======
-print("Yes very Excited!!")
+print("lets begin journey towards exploring dsa.")
