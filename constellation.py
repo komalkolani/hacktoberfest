@@ -1,6 +1,7 @@
+#Constellation Python Code
 n=int(input())
 li=[]
-for i in range(3):
+for i in range(n):
     li.append(list(input().split()))
 for i in range(n-2):
     if li[0][i]=='#':
@@ -26,3 +27,4 @@ for i in range(n-2):
         if li[1][i]=='' and li[1][i+1]=='.' and li[1][i+2]=='':
             if li[2][i]=='' and li[2][i+1]=='' and li[2][i+2]=='*':
                 print('U',end="")
+    print("Task Accomplished!")
